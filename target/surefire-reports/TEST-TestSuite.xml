@@ -1,18 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TestSuite" time="2.446" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="TestSuite" time="2.049" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="JOB_NAME" value="Test_Maven"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
-    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/2/display/redirect?page=tests"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/3/display/redirect?page=tests"/>
     <property name="NUMBER_OF_PROCESSORS" value="2"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="C:\ProgramData\Jenkins\.jenkins"/>
     <property name="HUDSON_SERVER_COOKIE" value="3deca8bdae48e1aa"/>
+    <property name="POM_ARTIFACTID" value="inetBankingV1"/>
     <property name="os.name" value="Windows 10"/>
     <property name="EXECUTOR_NUMBER" value="1"/>
     <property name="sun.desktop" value="windows"/>
     <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="POM_DISPLAYNAME" value="inetBankingV1"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="TEMP" value="C:\Users\SHARAN~1\AppData\Local\Temp"/>
     <property name="NODE_LABELS" value="built-in"/>
@@ -25,8 +27,8 @@
     <property name="ProgramFiles" value="C:\Program Files"/>
     <property name="user.language" value="en"/>
     <property name="JOB_BASE_NAME" value="Test_Maven"/>
-    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/2/display/redirect?page=changes"/>
-    <property name="BUILD_DISPLAY_NAME" value="#2"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/3/display/redirect?page=changes"/>
+    <property name="BUILD_DISPLAY_NAME" value="#3"/>
     <property name="OneDrive" value="C:\Users\Sharanya Rajasekaran\OneDrive"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.14\bin"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
@@ -38,7 +40,7 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="NODE_NAME" value="built-in"/>
     <property name="OneDriveConsumer" value="C:\Users\Sharanya Rajasekaran\OneDrive"/>
-    <property name="BUILD_ID" value="2"/>
+    <property name="BUILD_ID" value="3"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="maven.conf" value="C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4\conf"/>
@@ -52,10 +54,11 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.14"/>
     <property name="java.vm.info" value="mixed mode"/>
     <property name="os.version" value="10.0"/>
-    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/2/display/redirect"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/3/display/redirect"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
     <property name="TMP" value="C:\Users\SHARAN~1\AppData\Local\Temp"/>
     <property name="path.separator" value=";"/>
-    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/2/display/redirect?page=artifacts"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/Test_Maven/3/display/redirect?page=artifacts"/>
     <property name="java.vm.version" value="11.0.14+8-LTS-263"/>
     <property name="user.variant" value=""/>
     <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
@@ -68,12 +71,14 @@
     <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
     <property name="HOMEPATH" value="\Users\Sharanya Rajasekaran"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
     <property name="SERVICE_ID" value="jenkins"/>
     <property name="COMPUTERNAME" value="DESKTOP-AQAA9VU"/>
     <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="inetBankingV1"/>
     <property name="user.home" value="C:\Users\Sharanya Rajasekaran"/>
     <property name="PUBLIC" value="C:\Users\Public"/>
-    <property name="BUILD_TAG" value="jenkins-Test_Maven-2"/>
+    <property name="BUILD_TAG" value="jenkins-Test_Maven-3"/>
     <property name="JENKINS_SERVER_COOKIE" value="3deca8bdae48e1aa"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="ProgramData" value="C:\ProgramData"/>
@@ -88,7 +93,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4"/>
     <property name="java.class.path" value="C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar;C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.12.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 55446"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4 C:\ProgramData\Jenkins\war\WEB-INF\lib\remoting-4.12.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\ProgramData\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 61900"/>
     <property name="Path" value="C:\Program Files\Java\jdk-11.0.14/bin;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk-17.0.1\bin;C:\Users\Sharanya Rajasekaran\AppData\Local\Android\Sdk\platform-tools;C:\Users\Sharanya Rajasekaran\AppData\Local\Android\Sdk\build-tools;C:\Users\Sharanya Rajasekaran\AppData\Local\Android\Sdk\tools;C:\Program Files\Android\Android Studio\bin;C:\Users\Sharanya Rajasekaran\AppData\Local\Android\Sdk;C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4\bin;C:\Users\Sharanya Rajasekaran\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3\bin"/>
     <property name="jdk.debug" value="release"/>
     <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
@@ -107,7 +112,7 @@
     <property name="PATH+MAVEN" value="C:\Sharanya\apache-maven-3.8.4-bin\apache-maven-3.8.4/bin"/>
     <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/Test_Maven/2/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/Test_Maven/3/"/>
     <property name="SystemRoot" value="C:\Windows"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
@@ -119,7 +124,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
     <property name="BASE" value="C:\Program Files\Jenkins"/>
-    <property name="BUILD_NUMBER" value="2"/>
+    <property name="BUILD_NUMBER" value="3"/>
     <property name="PROCESSOR_REVISION" value="9e0a"/>
     <property name="ANDROID_HOME" value="C:\Users\Sharanya Rajasekaran\AppData\Local\Android\Sdk"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
@@ -137,5 +142,5 @@
     <property name="DriverData" value="C:\Windows\System32\Drivers\DriverData"/>
     <property name="java.vendor.version" value="18.9"/>
   </properties>
-  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="2.446"/>
+  <testcase name="loginTest" classname="com.inetbanking.testCases.TC_LoginTest_001" time="2.049"/>
 </testsuite>
