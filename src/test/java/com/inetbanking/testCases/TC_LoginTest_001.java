@@ -5,6 +5,7 @@ import java.io.IOException;
 
 
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import com.inetbanking.pageObjects.LoginPage;
@@ -12,8 +13,16 @@ import com.inetbanking.pageObjects.LoginPage;
 
 public class TC_LoginTest_001 extends BaseClass
 {
-
+	@Parameters("email")
 	@Test
+	public void zogTest(String shem) throws InterruptedException {
+		
+		Thread.sleep(2000);
+		System.out.println("+++++++++++++++"+shem);	
+		
+	}
+
+	@Test(priority=2,groups= "Sharanya")
 	public void loginTest() throws IOException, InterruptedException 
 	{
 			
@@ -32,6 +41,7 @@ public class TC_LoginTest_001 extends BaseClass
 		{
 			Assert.assertTrue(true);
 			logger.info("Login test passed");
+			Thread.sleep(2000);
 		}
 		else
 		{

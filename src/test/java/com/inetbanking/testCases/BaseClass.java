@@ -20,6 +20,8 @@ import org.testng.annotations.Parameters;
 
 import com.inetbanking.utilities.ReadConfig;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 
 public class BaseClass {
 
@@ -31,16 +33,18 @@ public class BaseClass {
 	
 	public static Logger logger;
 	
+	
 	@Parameters("browser")
 	@BeforeClass
 	public void setup(String br)
-	{			
+	{	
 		logger = Logger.getLogger("ebanking");
 		PropertyConfigurator.configure("Log4j.properties");
 		
 		if(br.equals("chrome"))
 		{
 			System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+			//WebDriverManager.chromedriver().setup();
 			driver=new ChromeDriver();
 		}
 		else if(br.equals("firefox"))

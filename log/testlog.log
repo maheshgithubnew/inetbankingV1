@@ -223,3 +223,86 @@
 2022-03-12 15:15:14,701 - ebanking -INFO - Entered username
 2022-03-12 15:15:14,805 - ebanking -INFO - Entered password
 2022-03-12 15:15:16,066 - ebanking -INFO - Login test passed
+2022-05-12 16:48:49,620 - ebanking -INFO - URL is opened
+2022-05-12 16:48:50,831 - ebanking -INFO - Entered username
+2022-05-12 16:48:51,300 - ebanking -INFO - Entered password
+2022-05-12 18:38:04,513 - ebanking -INFO - URL is opened
+2022-05-12 18:38:05,601 - ebanking -INFO - Entered username
+2022-05-12 18:38:05,996 - ebanking -INFO - Entered password
+2022-07-02 08:23:01,976 - org.testng.reporters.jq.Main -ERROR - C:\Users\Sharanya Rajasekaran\Sharanya-eclipse-workspace\inetbankingV1-master\test-output\jquery-3.6.0.min.js
+java.nio.file.FileAlreadyExistsException: C:\Users\Sharanya Rajasekaran\Sharanya-eclipse-workspace\inetbankingV1-master\test-output\jquery-3.6.0.min.js
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:87)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:236)
+	at java.base/java.nio.file.spi.FileSystemProvider.newOutputStream(FileSystemProvider.java:484)
+	at java.base/java.nio.file.Files.newOutputStream(Files.java:228)
+	at java.base/java.nio.file.Files.copy(Files.java:3160)
+	at org.testng.reporters.jq.Main.generateReport(Main.java:93)
+	at org.testng.TestNG.generateReports(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1072)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+2022-07-02 08:47:29,639 - ebanking -INFO - URL is opened
+2022-07-02 08:47:31,170 - ebanking -INFO - Entered username
+2022-07-02 08:47:31,378 - ebanking -INFO - Entered password
+2022-07-02 08:47:34,265 - ebanking -INFO - Login test passed
+2022-07-02 08:49:02,296 - ebanking -INFO - URL is opened
+2022-07-02 08:49:03,841 - ebanking -INFO - Entered username
+2022-07-02 08:49:04,001 - ebanking -INFO - Entered password
+2022-07-02 08:49:05,985 - ebanking -INFO - Login test passed
+2022-07-02 08:49:13,203 - ebanking -INFO - URL is opened
+2022-07-02 08:49:14,657 - ebanking -INFO - Entered username
+2022-07-02 08:49:14,796 - ebanking -INFO - Entered password
+2022-07-02 08:49:17,165 - ebanking -INFO - Login test passed
+2022-07-02 10:04:26,210 - ebanking -INFO - URL is opened
+2022-07-02 10:04:28,234 - ebanking -INFO - Entered username
+2022-07-02 10:04:28,428 - ebanking -INFO - Entered password
+2022-07-02 10:04:31,199 - ebanking -INFO - Login test passed
+2022-07-02 10:06:55,787 - ebanking -INFO - URL is opened
+2022-07-02 10:06:57,388 - ebanking -INFO - Entered username
+2022-07-02 10:06:57,602 - ebanking -INFO - Entered password
+2022-07-02 10:06:59,339 - ebanking -INFO - Login test passed
+2022-07-02 10:08:10,341 - ebanking -INFO - URL is opened
+2022-07-02 10:08:11,868 - ebanking -INFO - Entered username
+2022-07-02 10:08:12,058 - ebanking -INFO - Entered password
+2022-07-02 10:08:13,691 - ebanking -INFO - Login test passed
+2022-07-02 10:10:01,590 - ebanking -INFO - URL is opened
+2022-07-02 10:10:03,193 - ebanking -INFO - Entered username
+2022-07-02 10:10:03,349 - ebanking -INFO - Entered password
+2022-07-02 10:10:04,876 - ebanking -INFO - Login test passed
+2022-07-02 14:34:40,077 - ebanking -INFO - URL is opened
+2022-07-02 14:34:40,360 - ebanking -INFO - Entered username
+2022-07-02 14:34:40,699 - ebanking -INFO - Entered password
+2022-07-02 14:34:45,391 - ebanking -INFO - Login test passed
+2022-07-02 14:38:00,072 - ebanking -INFO - URL is opened
+2022-07-02 14:38:00,409 - ebanking -INFO - Entered username
+2022-07-02 14:38:00,798 - ebanking -INFO - Entered password
+2022-07-02 14:38:04,121 - ebanking -INFO - Login test passed
+2022-07-02 14:38:15,928 - ebanking -INFO - URL is opened
+2022-07-02 14:38:16,125 - ebanking -INFO - Entered username
+2022-07-02 14:38:16,407 - ebanking -INFO - Entered password
+2022-07-02 14:38:18,185 - ebanking -INFO - Login test passed
+2022-07-02 15:07:26,040 - ebanking -INFO - URL is opened
+2022-07-02 15:07:26,298 - ebanking -INFO - Entered username
+2022-07-02 15:07:26,453 - ebanking -INFO - Entered password
+2022-07-02 15:07:28,963 - ebanking -INFO - Login test passed
+2022-07-02 15:07:38,192 - ebanking -INFO - URL is opened
+2022-07-02 15:07:39,703 - ebanking -INFO - Entered username
+2022-07-02 15:07:39,919 - ebanking -INFO - Entered password
+2022-07-02 15:07:42,314 - ebanking -INFO - Login test passed
+2022-07-02 15:59:34,112 - ebanking -INFO - URL is opened
+2022-07-02 15:59:34,465 - ebanking -INFO - Entered username
+2022-07-02 15:59:34,855 - ebanking -INFO - Entered password
+2022-07-02 15:59:38,529 - ebanking -INFO - Login test passed
+2022-07-02 15:59:55,249 - ebanking -INFO - URL is opened
+2022-07-02 15:59:55,551 - ebanking -INFO - Entered username
+2022-07-02 15:59:55,825 - ebanking -INFO - Entered password
+2022-07-02 15:59:59,632 - ebanking -INFO - Login test passed
+2022-07-02 17:23:57,960 - ebanking -INFO - URL is opened
+2022-07-02 17:23:58,282 - ebanking -INFO - Entered username
+2022-07-02 17:23:58,501 - ebanking -INFO - Entered password
+2022-07-02 17:24:01,085 - ebanking -INFO - Login test passed
+2022-07-02 17:31:45,171 - ebanking -INFO - user name provided
+2022-07-02 17:31:45,350 - ebanking -INFO - password provided
